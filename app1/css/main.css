@@ -140,7 +140,7 @@ Version: 		1.0.0
  *
  * bootstrap-slider is released under the MIT License
  * Copyright (c) 2017 Kyle Kemp, Rohit Kalkur, and contributors
- * 
+ *
  * Permission is hereby granted, free of charge, to any person
  * obtaining a copy of this software and associated documentation
  * files (the "Software"), to deal in the Software without
@@ -149,10 +149,10 @@ Version: 		1.0.0
  * copies of the Software, and to permit persons to whom the
  * Software is furnished to do so, subject to the following
  * conditions:
- * 
+ *
  * The above copyright notice and this permission notice shall be
  * included in all copies or substantial portions of the Software.
- * 
+ *
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
  * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
  * OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -13136,4 +13136,36 @@ a.full-width-icon:hover .social-text {
 		padding-bottom: 200%;
 		opacity: 0;
 	}
+}
+
+.post-img img {
+	height: 250px;
+	width: 100%;
+}
+
+/* tabs 公用样式 */
+.nav-tabs {
+	margin: 30px;
+}
+
+#myTab > li:not(:first-child) {
+	margin: 0 10px;
+	padding-left: 10px;
+	border-left: 1px solid lightgrey;
+}
+
+#myTab > li a {
+	color: black;
+}
+
+#myTab > li a:hover {
+	color: grey;
+}
+
+.tab-content {
+	margin: 30px;
+}
+
+.tab-content > div {
+	min-height: 350px;
 }
